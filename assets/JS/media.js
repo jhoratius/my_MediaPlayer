@@ -31,8 +31,8 @@ video.addEventListener('timeupdate', function(){
         btn.className = 'play';
     }
 })
-backwardBtn.addEventListener("click", fwd, false);
-forwardBtn.addEventListener("click", bwd, false);
+backwardBtn.addEventListener("click", bwd, false);
+forwardBtn.addEventListener("click", fwd, false);
 // Skip Forward / Skip Backward 
 function fwd(){
     video.currentTime -= 3;
